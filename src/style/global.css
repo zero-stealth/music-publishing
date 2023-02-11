@@ -1,0 +1,85 @@
+@import "./stylesheet.css";
+@media screen {
+  
+* {
+  /* default-colors  */
+  --background-color: rgb(1, 1, 13);
+  --primary-color: rgb(255, 255, 255);
+  --background-light: rgb(92, 91, 105);
+  --secondary-color:  rgba(83, 86, 203, 1);
+  --tertiary-color:rgb(138, 73, 215);
+  --background-dark-light: rgb(26, 29, 44);
+  --background-color-gradient: linear-gradient(
+    90deg,
+    rgba(83, 86, 203, 1) 0%,
+    rgba(138, 73, 215, 1) 100%
+  );
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'robotoregular';
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-family: 'cocoregular';
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var( --background-light) var(--background-color);
+}
+
+
+*::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(  --background-light);
+  border: 3px solid var(--background-color);
+}
+
+
+}
+
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

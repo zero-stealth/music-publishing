@@ -1,0 +1,100 @@
+@media screen {
+  .home-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .home-wrapper {
+    gap: 20px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-wrapper h1 {
+    font-size: 4rem;
+  }
+
+  .home-wrapper h3 {
+    gap: 10px;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    font-weight: normal;
+  }
+
+  .home-wrapper h3 span {
+    font-weight: bold;
+    color: var(--background-color);
+  }
+
+  .home-wrapper p {
+    font-weight: normal;
+    text-align: center;
+    width: 90%;
+  }
+
+  .home-btn {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .play-btn {
+    gap: 5px;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+  }
+
+  .btn-intro {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+  }
+
+  .icon-play {
+    fill: var(--secondary-color);
+  }
+
+  .btn-tickets {
+    background: var(--background-color-gradient);
+  }
+
+  .p-ca {
+    bottom: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+
+  .play-btn {
+    height: 40px;
+    width: 150px;
+  }
+
+  .home-wrapper h3 {
+    font-size: 1rem;
+  }
+  
+    .home-wrapper p {
+    width: 80%;
+  }
+}

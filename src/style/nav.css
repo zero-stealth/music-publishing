@@ -1,0 +1,74 @@
+@media screen {
+
+    .nav-container {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-wrapper {
+        width: 100%;
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
+    .nav-d {
+        gap: 20px;
+        display: none;
+        flex-direction: row;
+        
+    }
+
+    .menu {
+        cursor: pointer;
+    }
+
+    .icon-menu {
+        height: 40px;
+        width: 40px;
+    }
+
+    .social-c {
+        display: none;
+    }
+    
+    .nav-link {
+        outline: none;
+        font-size: .7rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--primary-color);
+    
+    }
+    
+    .router-link-active {
+        color: var( --background-light);
+    }
+    
+    .icon-menu {
+        fill: var(--primary-color);
+    }
+}
+
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .nav-wrapper {
+        padding: 0;
+        justify-content: space-around;
+    }
+    .nav-d {
+        display: flex;
+    }
+
+    .social-c {
+        display: flex;
+    }
+}
+

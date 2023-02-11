@@ -1,0 +1,266 @@
+@media screen {
+  .player-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--background-dark-light);
+    box-shadow: inset 0 0 0 2000px rgba(26, 29, 44, 0.95);
+  }
+
+  .cover {
+    flex: 50%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .cover-info {
+    width: 100%;
+    display: flex;
+    font-size: .8rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .audio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .player-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .audio-wrapper {
+    gap: 10px;
+    width: 100%;
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .audio-wrapper span {
+    font-size: 0.8rem;
+    color: var(--background-light);
+  }
+
+  .audio-info h4 {
+    font-size: .8rem;
+    font-weight: 100;
+  }
+
+  .audio-controller {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .play-audio {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 180%;
+    justify-content: center;
+    color: var(--primary-color);
+    background: var(--background-color-gradient);
+  }
+
+  .icon-pause,
+  .icon-play-c {
+    height: 30px;
+    width: 30px;
+    fill: var(--primary-color);
+  }
+
+  .icon-previous,
+  .icon-next {
+    height: 30px;
+    width: 30px;
+    fill: var(--background-light);
+  }
+
+  .song-status p {
+    font-size: 0.7rem;
+  }
+
+  .song-status span {
+    font-size: 0.7rem;
+  }
+
+  .audio-bar {
+    height: 6px;
+    width: 100%;
+    display: flex;
+    background-color: var(--background-light);
+  }
+
+  .audio-bar span {
+    background: var(--background-color-gradient);
+  }
+
+  .audio-player-info {
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inner-pa {
+    gap: 20px;
+    width: 80%;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .audio-title {
+    text-align: center;
+  }
+
+  .audio-title h3 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: var(--secondary-color);
+  }
+
+  .audio-title h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .audio-detail p {
+    color: var(--background-light);
+  }
+
+  .more-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info-m {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-m span {
+    font-size: 0.7rem;
+    color: var(--background-light);
+  }
+
+  .info-m h4 {
+    font-size: .8rem;
+    font-weight: 100;
+  }
+
+  .play-youtube {
+    background: var(--background-color-gradient);
+  }
+
+  .icon-youtube {
+    fill: var(--primary-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .player-container {
+    width: 70%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cover {
+    width: 50%;
+    height: 100%;
+  }
+
+  .cover-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .cover-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .audio {
+    width: 70%;
+  }
+
+  .audio-wrapper {
+    padding: 20px;
+  }
+
+  .audio-info h4 {
+    font-size: 1rem;
+  }
+
+  .audio-controller {
+    gap: 40px;
+    justify-content: space-around;
+  }
+
+  .song-status p {
+    font-size: 0.8rem;
+  }
+
+  .song-status span {
+    font-size: 0.8rem;
+  }
+
+  .audio-player-info {
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .inner-pa {
+    align-items: normal;
+    padding: 0;
+   
+  }
+
+  .audio-title {
+    text-align: start;
+  }
+
+  
+  .audio-title h4 {
+    font-size: 1.4rem;
+  }
+
+  .info-m span {
+    font-size: 0.7rem;
+  }
+
+  .info-m h4 {
+    font-size: 1rem;
+  }
+
+}

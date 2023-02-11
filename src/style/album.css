@@ -1,0 +1,125 @@
+@media screen {
+    .album-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .alb-inner {
+        gap: 70px;
+        width: 80%;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .show-all-albums {
+        height: 100%;
+    }
+
+    .show-less-albums {
+        height: 1300px;
+    }
+    
+    .alb-title {
+        text-align: center;
+    }
+    
+    .alb-title span {
+        font-size: .8rem;
+        color: var( --secondary-color);
+    }
+    
+    .alb-title h2 {
+        font-weight: 500;
+        font-size:1.2rem;
+    }
+    
+    .album-wrapper {
+        gap: 50px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .album-info {
+        gap: 5px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .name-banner {
+        bottom: 43px;
+        width: 100%;
+        padding: 8px;
+        display: flex;
+        position: relative;
+        box-shadow: inset 0 0 0 2000px rgba(26, 29, 44, 0.95);
+    }
+
+    .name-banner h3 {
+        font-size: 1rem;
+        font-weight: 100;
+        color: var(--background-light);
+    }
+
+    
+    .album-cover {
+        width: 100%;
+        height: 250px; 
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .show-more {
+        gap: 5px;
+        display: flex;
+        cursor: pointer;
+        padding-top:50px ;
+        align-items: center;
+        padding-bottom: 10px;
+        flex-direction:column ;
+        color: var(--background-light);
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .less {
+        transform: rotate(180deg);
+    }
+
+    .show-more span {
+        font-size: .8rem;
+    }
+
+    .icon-more {
+        height: 15px;
+        width: 15px;
+        fill: var(--background-light);
+    }
+    
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .show-less-albums {
+        height: 750px;
+    }
+
+    .album-info {
+        width: 200px;
+    }
+
+}

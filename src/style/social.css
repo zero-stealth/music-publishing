@@ -1,0 +1,19 @@
+.social-container {
+    flex-grow: 1;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-s {
+    background-color: transparent;
+}
+
+.icon-facebook, .icon-twitter, .icon-instagram, .icon-youtube {
+    width: 15px;
+    height: 15px;
+    fill: var(--primary-color);
+
+}
+
