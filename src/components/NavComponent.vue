@@ -26,7 +26,7 @@ const routeStore = useRouteStore();
         <RouterLink :to="{ name: 'contact' }" class="nav-link">Contact</RouterLink>
       </div>
       <div class="menu">
-        <MenuIcon class="icon icon-menu" @click="routeStore.toggleDrawer" />
+        <MenuIcon class="icon-menu" @click="routeStore.toggleDrawer" />
       </div>
     </div>
   </div>
