@@ -1,9 +1,10 @@
 @media screen {
   .player-container {
-    width: 90%;
+    width: 95%;
     height: 100%;
     display: flex;
     margin: 30px 0;
+    border-radius: 4px;
     flex-direction: column;
     background-size: cover;
     background-position: center;

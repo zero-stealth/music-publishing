@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+import ExitIcon from "@/icons/ExitIcon.vue"
+import Form from "@/components/FormComponent.vue";
 
 const openForm = ref(false);
 const displayImage = ref("https://netstorage-tuko.akamaized.net/images/4f8b73f31f3ee287.png?imwidth=720")
@@ -9,7 +11,7 @@ const showForm = () => {
 };
 
 const Images = ref([
-{
+  {
     title: "Darassa",
     image: "https://upload.wikimedia.org/wikipedia/commons/5/55/Darassa_-_Too_Muching_at_EATV_Awards.jpg"
   },
@@ -22,8 +24,8 @@ const Images = ref([
     image: "https://netstorage-tuko.akamaized.net/images/0bab69988b7fe28f.png?imwidth=720"
   },
   {
-    title: 'Zuchu',
-    cover: "https://netstorage-tuko.akamaized.net/images/4f8b73f31f3ee287.png?imwidth=720 ",
+    title: "Zuchu",
+    image: "https://netstorage-tuko.akamaized.net/images/4f8b73f31f3ee287.png?imwidth=720"
   },
 
 ])
@@ -41,28 +43,36 @@ const updateImage = (image) => {
         </div>
       </div>
       <div class="license-pic">
-        <div class="inner-license"  v-for="({ title, image }, index) in Images" :key="index">
+        <div class="inner-license" v-for="({ title, image }, index) in Images" :key="index">
           <img :src="image" :alt="title" class="img-license" @click="updateImage(image)">
         </div>
       </div>
     </div>
     <div class="license-info">
-      <h3>With an experienced, award winning sync team and a catalogue of legendary songs, we’re sure to have the right
-        music for your commercial, film, trailer, video game, TV show, or any other project that requires that perfect
-        song.</h3>
-      <p>Working with some of the most iconic songs of all time, as well as the best new talent writing and recording
-        today, we have unparalleled access to the very best music from any era and in any genre. Just browse through our
-        website, or contact us and let our team of experienced music supervisors help you discover the right song for
-        your next project. If you already know what you’re after, then just email us on the link below. Creative, FAST
-        and innovative, we make music licensing as easy as it should be.</p>
+      <div class="info-p">
+        <h3>With an experienced, award winning sync team and a catalogue of legendary songs, we’re sure to have the
+          right
+          music for your commercial, film, trailer, video game, TV show, or any other project that requires that perfect
+          song.</h3>
+        <p>Working with some of the most iconic songs of all time, as well as the best new talent writing and recording
+          today, we have unparalleled access to the very best music from any era and in any genre. Just browse through
+          our
+          website, or contact us and let our team of experienced music supervisors help you discover the right song for
+          your next project. If you already know what you’re after, then just email us on the link below. Creative, FAST
+          and innovative, we make music licensing as easy as it should be.</p>
+      </div>
       <div class="contact-info">
-        <h2>Contact us</h2>
-        <h3>+25500000000</h3>
+        <div class="info-c">
+          <h2>Contact us</h2>
+          <h3>+25500000000</h3>
+          <h3>@PenguinMusico.com</h3>
+        </div>
+
       </div>
     </div>
     <div class="license-how">
-      <h1>How to license your music</h1>
-      <ol>
+      <h2>How to license your music</h2>
+      <ul>
         <li>
           <p>
             If you would like to license one of our songs, please fill out the INQUIRY FORM below letting us know the
@@ -87,13 +97,19 @@ const updateImage = (image) => {
             those options to you for One-Stop clearance.
           </p>
         </li>
-      </ol>
+      </ul>
       <div class="btn-license">
-        <button class="play-btn btn-tickets" @click="showForm">
+        <button class="up-btn btn-watch " @click="showForm">
           Licensing
         </button>
       </div>
     </div>
+  </div>
+  <div class="out-world" v-show="openForm != false">
+    <div class="exit-door" @click="showForm">
+      <ExitIcon class="icon-exit-door"/>
+    </div>
+    <Form />
   </div>
 </template>
 <style>

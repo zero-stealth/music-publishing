@@ -13,18 +13,19 @@
     .info-section {
         gap: 10px;
         display: flex;
-        text-align: center;
+        text-align: start;;
         align-items: center;
         flex-direction: column;
     }
     
     .info-section h2 {
         text-transform: uppercase;
-        width: 80%;
+        text-align: center;
+        width: 100%;
     }
     
     .info-section p {
-        width: 80%;
+        width: 90%;
     }
     
     .section-abt {
@@ -64,8 +65,7 @@
         gap: 5px;
         display: flex;
         padding: 15px 0;
-        text-align: center;
-        align-items: center;
+        text-align: start;
         flex-direction: column;
     }
     

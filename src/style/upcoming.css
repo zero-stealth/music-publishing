@@ -44,8 +44,8 @@
 
 .upcoming-detail {
     gap: 30px;
+    padding: 0;
     display: flex;
-    padding: 20px;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;

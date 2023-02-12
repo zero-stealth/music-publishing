@@ -8,7 +8,7 @@
   }
 
   .home-wrapper {
-    gap: 20px;
+    gap: 30px;
     height: 80%;
     display: flex;
     align-items: center;
@@ -35,8 +35,8 @@
 
   .home-wrapper p {
     font-weight: normal;
-    text-align: center;
-    width: 90%;
+    text-align: start;
+    width: 95%;
   }
 
   .home-btn {
@@ -80,8 +80,6 @@
 
 /* using it as global style for larger devices  */
 @media only screen and (min-width: 48em) {
-
-
   .play-btn {
     height: 40px;
     width: 150px;
@@ -90,9 +88,10 @@
   .home-wrapper h3 {
     font-size: 1rem;
   }
-  
-    .home-wrapper p {
+
+  .home-wrapper p {
     width: 80%;
+    text-align: center;
   }
 
   .p-ca {

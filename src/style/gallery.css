@@ -1,7 +1,7 @@
 @media screen {
     .gallery-container {
         display: flex;
-        padding: 20px;
+        padding: 10px;
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -121,7 +121,7 @@
     }
     
     .gallery-wrapper {
-        width: 80%;
+        width: 90%;
     }
 
     .show-less-gallerys {
