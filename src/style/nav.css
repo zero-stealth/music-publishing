@@ -24,6 +24,10 @@
         
     }
 
+    .logo {
+        width: 100px;
+    }
+
     .menu {
         cursor: pointer;
     }
@@ -47,7 +51,7 @@
     }
     
     .router-link-active {
-        color: var( --background-light);
+        color: var(--secondary-color);
     }
     
     .icon-menu {

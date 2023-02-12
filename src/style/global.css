@@ -6,14 +6,10 @@
   --background-color: rgb(1, 1, 13);
   --primary-color: rgb(255, 255, 255);
   --background-light: rgb(92, 91, 105);
-  --secondary-color:  rgba(83, 86, 203, 1);
+  --secondary-color:  rgba(189,51,94,1);
   --tertiary-color:rgb(138, 73, 215);
   --background-dark-light: rgb(26, 29, 44);
-  --background-color-gradient: linear-gradient(
-    90deg,
-    rgba(83, 86, 203, 1) 0%,
-    rgba(138, 73, 215, 1) 100%
-  );
+  --background-color-gradient: linear-gradient(90deg, rgba(53,50,188,1) 0%, rgba(189,51,94,1) 100%);
 
   margin: 0;
   padding: 0;
@@ -28,7 +24,8 @@ body {
 }
 
 h1 {
-    font-family: 'cocoregular';
+    font-family: 'cocobold';
+    text-align: center;
 }
 
 .icon {

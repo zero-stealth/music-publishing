@@ -1,8 +1,8 @@
 <script setup>
-import Logo from "./logoComponent.vue";
+import logo from "@/assets/logo.png";
 import { RouterLink } from 'vue-router';
-import { useRouteStore } from '@/stores/route';
 import wave from "@/assets/Soundwave.png";
+import { useRouteStore } from '@/stores/route';
 
 import { ref } from "vue";
 
@@ -13,7 +13,7 @@ footImg.value = wave;
 </script>
 <template>
   <div class="footer-container" :style="{ 'backgroundImage': `url(${footImg})` }">
-    <Logo/>
+    <img :src="logo" alt="logo" class="logo">
     <div class="footer-wrapper">
         <RouterLink :to="{ name: 'home' }" class="nav-link">Home</RouterLink>
         <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>

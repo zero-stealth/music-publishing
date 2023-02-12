@@ -1,5 +1,5 @@
 <script setup>
-import Logo from "./logoComponent.vue";
+import logo from "@/assets/logo.png";
 import { RouterLink } from 'vue-router';
 import Social from "./socialComponent.vue";
 import MenuIcon from "@/icons/menuIcon.vue";
@@ -19,7 +19,7 @@ const routeStore = useRouteStore();
         <RouterLink :to="{ name: 'album' }" class="nav-link">SongWriter</RouterLink>
         <RouterLink :to="{ name: 'gallery' }" class="nav-link">gallery</RouterLink>
       </div>
-      <Logo/>
+      <img :src="logo" alt="logo" class="logo">
       <div class="nav-d">
         <RouterLink :to="{ name: 'artist' }" class="nav-link">Artists</RouterLink>
         <RouterLink :to="{ name: 'license' }" class="nav-link">License</RouterLink>

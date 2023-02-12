@@ -75,7 +75,7 @@ export default {
       <NavComponent />
     </div>
     <div class="home-wrapper">
-      <h1>Penguin Chorus</h1>
+      <h1>Ayin Publishing Group</h1>
       <h3><span> Publish or License </span> your music with us </h3>
       <p>We are home to the best songwriters like
         Jay Melody, Diamond Platnumz, Ali Kiba , Nahreel, Ray C ,Stoller, Leonard Cohen, Stevie Wonder, Michael Jackson and Rolling Stones, with musician and singers such as
