@@ -23,64 +23,64 @@ const showMore = () => {
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
         <div class="gallery-info">
           <video class="gallery-cover" controls>
             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               type="video/mp4" />
           </video>
-          <h3>Song title</h3>
           <span>Genre</span>
+          <h3>Song title</h3>
         </div>
       </div>
     </div>

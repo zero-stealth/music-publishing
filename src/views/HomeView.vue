@@ -74,7 +74,6 @@ export default {
     <div class="header">
       <NavComponent />
     </div>
-    <!-- slide show  -->
     <div class="home-wrapper">
       <h1>Penguin Chorus</h1>
       <h3><span> Publish or License </span> your music with us </h3>

@@ -1,0 +1,187 @@
+@media screen {
+    .abt-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    
+    .info-section {
+        gap: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .info-section h2 {
+        text-transform: uppercase;
+        width: 80%;
+    }
+    
+    .info-section p {
+        width: 80%;
+    }
+    
+    .section-abt {
+        height: 100%;
+
+    }
+    
+    section:nth-child(even) {
+        color: var(--background-color);
+        background: var(--primary-color);
+    }
+    
+    .abt-us {
+        padding: 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .abt-pic-container {
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .abt-image {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .abt-us-info {
+        flex: 50%;
+        gap: 5px;
+        display: flex;
+        padding: 15px 0;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .abt-us-info h2 {
+        font-size: 1.2rem;
+        
+    }
+    
+    .abt-us-info h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+    
+    
+    .abt-us-info p {
+        font-size: .8rem;
+        font-weight: 100;
+        
+    }
+
+    .arrow-down {
+        top: 50px;
+        padding: 10px;
+        display: flex;
+        cursor: pointer;
+        position: relative;
+        align-items: center;
+        border-radius: 360%;
+        justify-content: center;
+        background-color: var(--background-color);
+        border: 4px solid var(--secondary-color);
+    }
+
+    .fadeInDown {
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+     }
+
+     @-webkit-keyframes fadeInDown {
+        0% {
+           opacity: 0;
+           -webkit-transform: translateY(-20px);
+        }
+        100% {
+           opacity: 1;
+           -webkit-transform: translateY(0);
+        }
+     }
+     
+    @keyframes fadeInDown {
+        0% {
+           opacity: 0;
+           transform: translateY(-20px);
+        }
+        100% {
+           opacity: 1;
+           transform: translateY(0);
+        }
+     } 
+
+    .arrow-icon-down {
+        height: 24px;
+        width: 24px;
+        fill: var(--primary-color);
+    }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .arrow-down {
+        top: 180px;
+    }
+
+    .abt-us {
+        padding: 0;
+        flex-direction: row;
+    }
+    
+    .abt-image {
+        height: 500px;
+        width: 500px;
+    }
+    .abt-us-info {
+        padding: 40px;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    section:nth-child(odd) .abt-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    
+    
+    
+    .abt-us-info h2 {
+        font-size: 1.4rem;
+        
+    }
+    
+    .abt-us-info h3 {
+        font-size: 1.2rem;
+        
+    }
+
+    
+    .abt-us-info p {
+        font-size: 1rem;
+        
+    }
+}

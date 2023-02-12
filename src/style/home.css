@@ -73,10 +73,7 @@
   }
 
   .p-ca {
-    bottom: 50px;
     display: flex;
-    position: relative;
-    align-items: center;
     justify-content: center;
   }
 }
@@ -96,5 +93,13 @@
   
     .home-wrapper p {
     width: 80%;
+  }
+
+  .p-ca {
+    bottom: 60px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
   }
 }
