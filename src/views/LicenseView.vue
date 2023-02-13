@@ -4,7 +4,7 @@ import ExitIcon from "@/icons/ExitIcon.vue"
 import Form from "@/components/FormComponent.vue";
 
 const openForm = ref(false);
-const displayImage = ref("https://netstorage-tuko.akamaized.net/images/4f8b73f31f3ee287.png?imwidth=720")
+const displayImage = ref("https://img.freepik.com/free-vector/golden-music-speaker-with-sound-notes-background_1017-36829.jpg")
 
 const showForm = () => {
   openForm.value = !openForm.value;
@@ -12,21 +12,21 @@ const showForm = () => {
 
 const Images = ref([
   {
-    title: "Darassa",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/55/Darassa_-_Too_Muching_at_EATV_Awards.jpg"
+    title: "",
+    image: "https://img.freepik.com/free-vector/golden-music-speaker-with-sound-notes-background_1017-36829.jpg"
   },
   {
-    title: "Rayvanny",
-    image: "https://netstorage-tuko.akamaized.net/images/faf124db74b60fe8.jpg?imwidth=720 "
+    title: "",
+    image: "https://img.freepik.com/free-vector/golden-music-speaker-with-sound-notes-background_1017-36829.jpg"
   },
   {
-    title: "A.Y",
-    image: "https://netstorage-tuko.akamaized.net/images/0bab69988b7fe28f.png?imwidth=720"
+    title: "",
+    image: "https://img.freepik.com/free-vector/golden-music-speaker-with-sound-notes-background_1017-36829.jpg"
   },
   {
-    title: "Zuchu",
-    image: "https://netstorage-tuko.akamaized.net/images/4f8b73f31f3ee287.png?imwidth=720"
-  },
+    title: "",
+    image: "https://img.freepik.com/free-vector/golden-music-speaker-with-sound-notes-background_1017-36829.jpg"
+  }
 
 ])
 
@@ -64,8 +64,8 @@ const updateImage = (image) => {
       <div class="contact-info">
         <div class="info-c">
           <h2>Contact us</h2>
-          <h3>+25500000000</h3>
-          <h3>@PenguinMusico.com</h3>
+          <h3> +255 685 977 148</h3>
+          <h3>info@ayin.africa </h3>
         </div>
 
       </div>

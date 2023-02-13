@@ -11,7 +11,7 @@ import piano from "@/assets/piano.jpg";
 import Artist from "./ArtistView.vue";
 import band from "@/assets/band.jpg";
 import dry from "@/assets/dry.jpg";
-import Album from "./AlbumView.vue";
+// import Album from "./AlbumView.vue";
 
 import { useRouter } from "vue-router";
 
@@ -95,15 +95,15 @@ export default {
   <div class="p-ca">
     <Player />
   </div>
-  <div>
+  <!-- <div>
     <Album />
-  </div>
+  </div> -->
   <div>
     <Upcoming />
   </div>
-  <div>
+  <!-- <div>
     <Gallery />
-  </div>
+  </div> -->
   <div>
     <Artist />
   </div>

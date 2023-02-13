@@ -16,8 +16,8 @@ const routeStore = useRouteStore();
         <div class="nav-mobile">
           <div class="nav-wrapper-mobile">
             <RouterLink :to="{ name: 'home' }" class="nav-link nav-mobile-link">Home</RouterLink>
-            <RouterLink :to="{ name: 'album' }" class="nav-link  nav-mobile-link">SongWriter</RouterLink>
-            <RouterLink :to="{ name: 'gallery' }" class="nav-link  nav-mobile-link">Gallery</RouterLink>
+            <!-- <RouterLink :to="{ name: 'album' }" class="nav-link  nav-mobile-link">SongWriter</RouterLink> -->
+            <!-- <RouterLink :to="{ name: 'gallery' }" class="nav-link  nav-mobile-link">Gallery</RouterLink> -->
             <RouterLink :to="{ name: 'artist' }" class="nav-link  nav-mobile-link">Artists</RouterLink>
             <RouterLink :to="{ name: 'license' }" class="nav-link  nav-mobile-link">License</RouterLink>
             <RouterLink :to="{ name: 'about' }" class="nav-link  nav-mobile-link">About</RouterLink>

@@ -16,8 +16,8 @@ const routeStore = useRouteStore();
       <div class="nav-d">
         <RouterLink :to="{ name: 'home' }" class="nav-link">Home</RouterLink>
         <RouterLink :to="{ name: 'about' }" class="nav-link">About</RouterLink>
-        <RouterLink :to="{ name: 'album' }" class="nav-link">SongWriter</RouterLink>
-        <RouterLink :to="{ name: 'gallery' }" class="nav-link">gallery</RouterLink>
+        <!-- <RouterLink :to="{ name: 'album' }" class="nav-link">SongWriter</RouterLink> -->
+        <!-- <RouterLink :to="{ name: 'gallery' }" class="nav-link">gallery</RouterLink>  -->
       </div>
       <img :src="logo" alt="logo" class="logo">
       <div class="nav-d">

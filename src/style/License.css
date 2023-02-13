@@ -226,10 +226,18 @@
     
     .contact-info {
         width: 30%;
+        text-align: center;
         align-items: center;
     }
     
-    
+    .info-c h2 {
+        font-size: 1.4rem;
+    }
+
+      
+    .info-c h3 {
+        font-size: 1.2rem;
+    }
 
     .license-how {
         gap: 10px;

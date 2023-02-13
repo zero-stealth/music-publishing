@@ -1,32 +1,29 @@
 <script setup>
 import ArrowIcon from "@/icons/ArrowIcon.vue"
-import piano from "@/assets/piano.jpg";
-import band from "@/assets/band.jpg";
-import dry from "@/assets/dry.jpg";
 import { ref } from "vue";
 
 const data = ref([
   {
-    image: piano,
+    image: 'https://img.freepik.com/free-photo/old-wrinkled-hands-piano_181624-2113.jpg',
     title: 'COMPANY OVERVIEW',
-    titleDescription: 'Penguin Music Publishing is the world’s No. 1 music publishing company headquartered in Tanzania with a network all the country',
-    descripion: 'With its songwriter-first mission, we provides best-in-class services on a global scale to its songwriters and catalogs while also leading the industry with its high-level synchronization operation and production music businesses.',
-    extraDescription: 'Penguin Music Publishing is a part of Penguin’s suite of powerful entertainment brands, reflecting its identity as "A Creative Entertainment Company with a Solid Foundation of Technology"',
+    titleDescription: "At APG we understand the challenges faced by musicians in today's rapidly evolving music industry",
+    descripion: "That's why we provide a comprehensive suite of services designed to help our clients succeed. Whether you're a seasoned pro or just starting out, we have the resources and expertise to help you achieve your goals.",
   },
   {
-    image: band,
-    title: 'COMPANY HISTORY',
-    descripion: 'Sony/ATV was established in 1995 through a joint venture with Michael Jackson that brought together the original Sony Music Publishing with Jackson’s ATV Music. Jackson had acquired ATV Music, which owned the Northern Songs catalogue, in 1985. Northern Songs owned the rights to all the songs that John Lennon and Paul McCartney wrote during their time with the Beatles. In 2016, Sony acquired the Michael Jackson Estate’s 50% share of Sony/ATV making it a wholly owned Sony company.',
+    image: 'https://img.freepik.com/free-photo/wedding-ring-bracelet_1303-11576.jpg?',
+    title: 'APG TEAM',
+    descripion: 'Our team of music industry veterans has years of experience in the business, and we use this expertise to help our clients navigate the complex landscape of music publishing. We offer a wide range of services, including copyright protection, licensing and royalty collection, marketing and promotion, and much more',
   },
   {
-    image: piano,
-    title: 'COMPANY ROSTER AND SONG CATALOGUE',
-    descripion: 'We are home to the best songwriters like Jay Melody, Diamond Platnumz, Ali Kiba , Nahreel, Ray C ,Stoller, Leonard Cohen, Stevie Wonder, Michael Jackson and Rolling Stones, with musician and singers such as, Harmonize , Freddie_Mercury, Lady Jaydee, Calvin Harris, Daddy Yankee, Luke Bryan and classics like Barnaba Classic among many others',
+    image: 'https://img.freepik.com/free-photo/man-dancing-smoke-with-illuminating-light_23-2148791668.jpg',
+    title: 'APG ROSTER AND SONG CATALOGUE',
+    descripion: 'We are proud to work with a diverse range of musicians, from emerging artists to established names. Our mission is to help our clients reach their full potential, and we believe that the best way to do that is by providing the support, resources, and guidance they need to succeed. ',
   },
   {
-    image: piano,
-    title: 'Founder && ceo',
-    descripion: 'Kelvin is Chairman & CEO of Penguin Music Publishing, the number one global music publisher. Since his appointment in April 2019, Platt’s inclusive leadership style has reshaped the corporate culture and created a powerful example for the music industry.',
+    image: 'https://img.freepik.com/free-vector/glowing-shiny-musical-notes-background-design_1017-32856.jpg',
+    title: 'APG Ethos',
+    descripion: 'At APG we are committed to upholding the highest standards of integrity and professionalism. Our clients can always count on us to provide the best possible service, and we take pride in our reputation as one of the leading music publishing companies in the industry.',
+    extraDescription: "If you're a musician looking to take your career to the next level, we would love to hear from you. Contact us today to learn more about our services and how we can help you achieve your musical dreams."
   },
 
 ]);
@@ -43,7 +40,7 @@ export default {
   data() {
     return {
       images: [],
-      mainImageSrc: band
+      mainImageSrc: 'https://img.freepik.com/free-vector/glowing-shiny-musical-notes-background-design_1017-32856.jpg'
     }
   },
   methods: {
@@ -52,16 +49,16 @@ export default {
     let self = this
     this.images = [
       {
-        image: band
+        image: 'https://img.freepik.com/free-vector/glowing-shiny-musical-notes-background-design_1017-32856.jpg'
       },
       {
-        image: piano
+        image: 'https://img.freepik.com/free-photo/old-wrinkled-hands-piano_181624-2113.jpg'
       },
       {
-        image: dry
+        image: 'https://img.freepik.com/free-photo/wedding-ring-bracelet_1303-11576.jpg?'
       },
       {
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Harmonize.jpg/220px-Harmonize.jpg'
+        image: 'https://img.freepik.com/free-photo/man-dancing-smoke-with-illuminating-light_23-2148791668.jpg'
       },
     ]
 
@@ -76,11 +73,11 @@ export default {
 
   <div class="abt-container" :style="{ 'backgroundImage': `url(${mainImageSrc})` }">
     <div class="info-section">
-      <h2>AT Penguin PUBLISHING... the future is always being made </h2>
-      <p>Sony Music Publishing celebrates the power of songwriting to connect cultures and bring people together. Our
-        company ethos is to put songwriters at the forefront, honoring their vision, artistry and goals. We lift up our
-        songwriters by supporting their careers, amplifying opportunities, fostering collaboration and defending their
-        rights.</p>
+      <h2>AYIN PUBLISHING GROUP.....Where Music Meets Business   </h2>
+      <p>Ayin Publishing Group (APG) is a music publishing company dedicated to supporting and empowering
+the creative talents of songwriters and composers. With a passion for music and a commitment to
+excellence, we have built a reputation as a trusted partner for some of the most talented musicians in
+the industry</p>
     </div>
     <a class="arrow-down" href="#abt-us" @click="addAnimation" >
       <ArrowIcon class="arrow-icon-down" />

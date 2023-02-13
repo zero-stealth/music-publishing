@@ -24,7 +24,7 @@ footImg.value = wave;
         <RouterLink :to="{ name: 'contact' }" class="nav-link">Contact</RouterLink>
     </div>
     <div class="footer-info">
-      <h3>&#169;2023 Penguin Chorus.All right reserved</h3>
+      <h3>&#169;2023 Ayin Publishing Group.All right reserved</h3>
     </div>
   </div>
 </template>
