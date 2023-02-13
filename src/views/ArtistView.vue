@@ -8,86 +8,6 @@ const data = ref([
   {
     title: "",
     image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
-  },
-  {
-    title: "",
-    image: "https://img.freepik.com/free-vector/beautiful-music-sound-golden-notes-background_1017-32310.jpg"
   }
 ])
 
@@ -109,7 +29,8 @@ const showMore = () => {
         A full update of the current roster is under review and will be updated as soon as
         possible.</p>
     </div>
-    <div class="gallery-layout" :class="show == true ? 'show-all-gallery' : 'show-less-gallery'">
+    <!-- :class="show == true ? 'show-all-gallery' : 'show-less-gallery'" -->
+    <div class="gallery-layout">
       <div v-for="({ title, image }, index) in data" :key="index">
         <img :src="image" class="img-responsive" :alt="title">
         <span>{{ title }}</span>
