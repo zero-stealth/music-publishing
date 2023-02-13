@@ -6,6 +6,8 @@ import MenuIcon from "@/icons/menuIcon.vue";
 import { useRouteStore } from '@/stores/route';
 
 const routeStore = useRouteStore();
+
+
 </script>
 <template>
   <div class="nav-container">
@@ -19,7 +21,7 @@ const routeStore = useRouteStore();
         <!-- <RouterLink :to="{ name: 'album' }" class="nav-link">SongWriter</RouterLink> -->
         <!-- <RouterLink :to="{ name: 'gallery' }" class="nav-link">gallery</RouterLink>  -->
       </div>
-      <img :src="logo" alt="logo" class="logo">
+      <RouterLink :to="{ name: 'home' }"> <img :src="logo" alt="logo" class="logo" @click="Home"></RouterLink>
       <div class="nav-d">
         <RouterLink :to="{ name: 'artist' }" class="nav-link">Artists</RouterLink>
         <RouterLink :to="{ name: 'license' }" class="nav-link">License</RouterLink>

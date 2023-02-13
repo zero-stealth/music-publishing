@@ -90,7 +90,7 @@ const updateImage = (image) => {
         </li>
         <li>
           <p>
-            Also, please note that Sony Music Publishing represents the Publishing Rights for our compositions, however
+            Also, please note that Ayin Publishing Group represents the Publishing Rights for our compositions, however
             there may be multiple publishers on a song, and Master Rights to license particular recordings of our songs
             may also be required. For a fast and easy option, we have a large selection of songs where we control 100%
             of the Publishing as well as the Master Rights, so let us know if that is of interest and we can deliver
